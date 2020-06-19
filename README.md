@@ -1,16 +1,21 @@
-# homework3
-A password generator
+# Random Password Generator
 
-This application has three files: index.html, style.css and script.js.
+### Overview
 
-Index.html describes the headings people read indicating that this is a password generator. It also has the display box for the generated password, and a button for the user to click to begin the password generation process.
+People with sensitive data need randomly generated passwords that meet certain criteria in order to maximize security. This application generates a random password based on user-selected criteria. This app will run in the browser and features dynamically updated HTML and CSS powered by the JavaScript code. User is prompted to choose a number between 8 and 128. If user fails, it will choose 30 for the user and notify user. Then through a series of four prompts, the application asks user if they wish to include Special Characters, Numerics, Lowercase letters and Uppercase letters in the password. If the user says "no" to all four, all types of characters will be decided for the user, and user will be notified. The application will then determine a random string of characters from the types selected and at the length selected. This password will then be displayed in the display box.
 
-Style.css adds colors and spacing to the HTML to make it more readable.
+![Demo of Random Password Generator](https://github.com/Jack-Aaron/Random-Password-Generator/blob/master/demo.gif?raw=true)
 
-Script.js contains the code that first prompts the user upon button-click to input how long they wish the password to be in characters. It tells user to choose a number between 8 and 128. If user fails, it will choose 30 for the user and notify user.
+### Technologies Used
+ * HTML/CSS
+ * Javascript ES5
 
-Then through a series of four prompts, the application asks user if they wish to include Special Characters, Numerics, Lowercase letters and Uppercase letters in the password. If the user says "no" to all four, all types of characters will be decided for the user, and user will be notified.
+### Future Improvements
+* Creating multiple budgets (groceries, hobbies, household items, etc)
+* Associating transactions with dates and displaying transactions chronologically
 
-The application will then determine a random string of characters from the types selected and at the length selected. This password will then be displayed in the display box.
+### Links
+* [Application](https://jack-aaron.github.io/Random-Password-Generator/)
 
-Jonathan Alpart 4/23/2020
+### Meet The Team
+* [Jonathan Alpart](https://github.com/Jack-Aaron/) Front end
